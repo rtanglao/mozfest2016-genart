@@ -1,5 +1,12 @@
 # mozfest2016-genart
 generative art that might be used in mozfest2016 :-)
+
+## October 1, 2016
+
+* ```pxlsrt kim first67200photos.png black-kim-pixelsort-2016-ig-van-first67200photos.png --method black```
+* ```pxlsrt kim first67200photos.png brightness-kim-pixelsort-2016-ig-van-first67200photos.png```
+* ```pxlsrt kim first67200photos.png white-kim-pixelsort-2016-ig-van-first67200photos.png --method white --value 5``` # doesn't seem to change anything!
+
 ## September 30, 2016 - a new beginning :-)
 
 * ```gem install pxlsrt```
