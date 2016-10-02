@@ -6,6 +6,34 @@ generative art that might be used in mozfest2016 :-)
 * ```pxlsrt kim first67200photos.png black-kim-pixelsort-2016-ig-van-first67200photos.png --method black```
 * ```pxlsrt kim first67200photos.png brightness-kim-pixelsort-2016-ig-van-first67200photos.png```
 * ```pxlsrt kim first67200photos.png white-kim-pixelsort-2016-ig-van-first67200photos.png --method white --value 5``` # doesn't seem to change anything!
+*  ```pxlsrt seed first67200photos.png red-reverse-seed-first67200photos.png --smooth --reverse --method red``` # something cool here!
+* ```pxlsrt seed first67200photos.png reverse-seed-first67200photos.png --smooth --reverse``` # is also cool
+* ```pxlsrt seed first67200photos.png seed-first67200photos.png --smooth``` # also cool
+* ```pxlsrt seed first67200photos.png not-smooth-seed-first67200photos.png ``` # much like the previous
+* ```pxlsrt seed first67200photos.png sum-rgb-reverse-seed-first67200photos.png --smooth --reverse ``` # much like the previous
+* ```pxlsrt seed first67200photos.png random100-smooth-seed-first67200photos.png --smooth --random 100``` #very cool
+* ```pxlsrt seed first67200photos.png random100-seed-first67200photos.png --random 100``` # also cool
+* ```pxlsrt seed first67200photos.png random1000-seed-first67200photos.png --random 1000``` # very cool
+* ```pxlsrt seed first67200photos.png random1000-smooth-seed-first67200photos.png --random 1000 --smooth``` # also cool
+* ```pxlsrt seed first67200photos.png random1000-smooth-seed-first67200photos.png --random 1000 --smooth --method red``` # very cool gets you blue!
+* ```pxlsrt seed first67200photos.png random10-smooth-seed-first67200photos.png --random 10 --smooth --method red``` # cool
+* ```pxlsrt seed first67200photos.png random10000-smooth-seed-first67200photos.png --random 10000 --smooth --method red``` # 10000 is even better!
+* ```pxlsrt seed first67200photos.png random100000-smooth-seed-first67200photos.png --random 100000 --smooth --method red``` #cool but starting to look like original
+* ```pxlsrt seed first67200photos.png random50000-smooth-seed-first67200photos.png --random 50000 --smooth --method red``` # also cool but starting too like like original too
+* ```pxlsrt seed first67200photos.png random1-smooth-seed-first67200photos.png --random 1 --smooth --method red``` # 1 looks cool
+* ```pxlsrt seed first67200photos.png random5-smooth-seed-first67200photos.png --random 5 --smooth --method red``` #5 is cool too
+* ```pxlsrt seed first67200photos.png random2-smooth-seed-first67200photos.png --random 2 --smooth --method red``` # 2 is cool
+* ```pxlsrt brute first67200photos.png brute-no-options-seed-first67200photos.png``` # brute no options is cool
+* ```pxlsrt brute first67200photos.png brute-smooth-first67200photos.png --smooth``` # cleaned up version of above
+* ```pxlsrt brute first67200photos.png brute-diagonal-first67200photos.png --diagonal``` #diagonal!
+* ```pxlsrt brute first67200photos.png brute-middle-first67200photos.png --middle``` # middle is cool too!
+* ```pxlsrt brute first67200photos.png brute-middle10-first67200photos.png --middle 10``` # middle 10 is cool but a grid like pattern, not what i expected!
+* ```pxlsrt brute first67200photos.png brute-middle2-first67200photos.png --middle 2``` # middle 2 has 2 middles not a grid and is cool!
+* ```pxlsrt brute first67200photos.png brute-middle5-first67200photos.png --middle 5``` # middle 5 is like silos or cylinders
+* ```pxlsrt brute first67200photos.png brute-middle-1-first67200photos.png --middle -1``` # cool
+* ```pxlsrt brute first67200photos.png brute-middle-2-first67200photos.png --middle -2``` # middle -2 is more grid like
+* ```pxlsrt brute first67200photos.png brute-middle-5-first67200photos.png --middle -5``` # middle -5 is also more grid like
+
 
 ## September 30, 2016 - a new beginning :-)
 
